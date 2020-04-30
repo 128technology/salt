@@ -859,7 +859,7 @@ class SaltDistribution(distutils.dist.Distribution):
         # Salt version
         self.with_salt_version = None
 
-        self.name = 'salt-ssh' if PACKAGED_FOR_SALT_SSH else 'salt'
+        self.name = 'salt-ssh' if PACKAGED_FOR_SALT_SSH else 'salt-128tech'
         self.salt_version = __version__  # pylint: disable=undefined-variable
         self.description = 'Portable, distributed, remote execution and configuration management system'
         kwargs = {}
