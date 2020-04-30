@@ -1181,6 +1181,7 @@ class AESFuncs(TransportMethods):
         'minion_publish', 'revoke_auth', 'run_func', '_serve_file',
         '_file_find', '_file_hash', '_file_find_and_stat', '_file_list',
         '_file_list_emptydirs', '_dir_list', '_symlink_list', '_file_envs',
+        '_file_hash_and_stat',
     )
 
     def __init__(self, opts):
